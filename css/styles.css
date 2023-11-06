@@ -101,6 +101,7 @@
 .background-title {
   background-color: var(--navy-blue);
   background-image: url(../images/bg-people-office.jpg);
+
   padding: 188px 0;
   background-size: auto;
 }
@@ -446,4 +447,26 @@ img {
 
 .portfolio-link {
   text-decoration: none;
+}
+
+.icons-footer {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.headline-social-media {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.32px;
+  color: var(--white);
+}
+
+.footer {
+  display: flex;
+}
+
+.headline-icons {
+  margin-left: 120px;
 }
