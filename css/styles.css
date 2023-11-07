@@ -107,15 +107,20 @@
     url(../images/bg-people-office.jpg);
 
   padding: 188px 0;
-  background-size: auto;
+  background-size: cover;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.icon-lorem {
+.icons-second-section {
   background-color: var(--cloud);
-  width: 264px;
   height: 112px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .third-headline-title {
@@ -294,6 +299,8 @@
 
 .border-header {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .all-header {
