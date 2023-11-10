@@ -190,9 +190,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--cloud);
 }
 
+.svg-color {
+  fill: var(--cloud);
+}
 .social-media {
   width: 40px;
   height: 40px;
