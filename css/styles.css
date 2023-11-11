@@ -202,11 +202,11 @@
 }
 
 .social-media:hover {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 
 .social-media:focus {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 
 .social-media-icons-footer {
@@ -514,6 +514,11 @@ img {
 .social-media {
   width: 40px;
   height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
