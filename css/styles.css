@@ -513,6 +513,9 @@ img {
 .footer {
   display: flex;
   align-items: baseline;
+}
+
+.logo-paragraph {
   margin-right: 120px;
 }
 
