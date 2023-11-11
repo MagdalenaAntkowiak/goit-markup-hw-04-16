@@ -192,6 +192,14 @@
   justify-content: center;
 }
 
+.svg-icons:hover {
+  background-color: var(--ocean);
+}
+
+.svg-icons:focus {
+  background-color: var(--ocean);
+}
+
 .svg-color {
   fill: var(--cloud);
 }
