@@ -389,29 +389,39 @@ img {
   gap: 24px;
 }
 
-.our-customers {
-  margin-top: 120px;
-}
-
 .section-five {
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-slate);
 }
 
 .section-five:hover {
   color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 .section-five:focus {
   color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 .customers-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
+}
+
+.svg-customers {
+  fill: currentColor;
+}
+
+.customers-list-item {
+  width: calc(100% - 120px / 6);
+  height: 88px;
 }
 
 .img-person-position {
