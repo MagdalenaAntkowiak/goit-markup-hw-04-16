@@ -111,6 +111,7 @@
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 
 .icons-second-section {
@@ -466,14 +467,6 @@ img {
 
 .item {
   flex-basis: calc((100% - 48px) / 3);
-}
-
-.item:hover {
-  border: 1px solid var(--CLOUD, #f4f4fd);
-  background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .item-main-page {
